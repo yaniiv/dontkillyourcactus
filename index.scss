@@ -1,0 +1,68 @@
+body {
+  background-color: #f5dddd;
+}
+
+.color-block {
+  height:170vh;
+}
+
+@include media-breakpoint-up(xs) {
+  .plant-svg {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .plant-svg {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .plant-svg {
+    height: 400px;
+    width: 400px;
+  }
+}
+// @include media-breakpoint-up(lg) { ... }
+// @include media-breakpoint-up(xl) { ... }
+//
+
+.section-1 {
+  background-color: $lightpink;
+}
+
+.section-2 {
+  background-color: #f0dcab;
+
+}
+
+
+.section-3 {
+  background-color: #f0f5d7;
+
+}
+
+.section-4 {
+  background-color: #d1f1d1;
+
+}
+
+.section-5 {
+  background-color: #cfe0f5;
+}
+
+.section-6 {
+  background-color: #e4d2f5;
+}
+
+.section-7 {
+  background-color: #f3eaaa;
+}
+
+footer {
+  background-color: #454545;
+  height:40vh;
+}
