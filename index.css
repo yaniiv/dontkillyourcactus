@@ -20,8 +20,8 @@ body {
 
 
 .plant-svg {
-  height:200px;
-  width:200px;
+  height:350px;
+  width:350px;
   position: fixed;
   left: 50%;
   top: 50%;
@@ -46,10 +46,12 @@ body {
 }
 
 /* Large */
-@media(min-width:1200px){}
-// @include media-breakpoint-up(lg) { ... }
-// @include media-breakpoint-up(xl) { ... }
-//
+@media(min-width:1200px){
+  .plant-svg {
+    height:500px;
+    width:500px;
+  }
+}
 
 .section-1 {
   // background-color: $lightpink;
