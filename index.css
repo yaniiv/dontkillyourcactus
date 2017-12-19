@@ -1,23 +1,15 @@
-
-
-header: {
+header {
   /* font-family: 'Palanquin', sans-serif; */
-
 }
+
 body {
   background-color: #f5dddd;
   color: #2c2c2c;
   /* font-family: 'David Libre', serif; */
   /* font-family: 'Pompiere', cursive; */
   /* font-family: 'Gafata', sans-serif; */
-
   font-size: 18px;
 }
-
-.color-block {
-  height:170vh;
-}
-
 
 .plant-svg {
   height:350px;
@@ -27,7 +19,6 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
 }
-
 
 /* Small */
 @media(min-width:768px) and (max-width:991px){
@@ -51,6 +42,29 @@ body {
     height:500px;
     width:500px;
   }
+}
+
+/******************************/
+.animated {
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+/******************************/
+
+.color-block {
+  height:170vh;
 }
 
 .section-1 {
