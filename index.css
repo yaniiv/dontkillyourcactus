@@ -45,7 +45,7 @@ body {
 }
 
 /******************************/
-.animated {
+/*.animated {
   animation-duration: 2s;
   animation-name: slidein;
 }
@@ -60,7 +60,7 @@ body {
     margin-left: 0%;
     width: 100%;
   }
-}
+}*/
 /******************************/
 
 .color-block {
