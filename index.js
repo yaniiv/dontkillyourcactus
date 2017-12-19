@@ -1,19 +1,33 @@
 $(document).ready(function() {
   console.warn('document ready')
+
+  // Watering Can
   $('.watering-can-span').css('opacity', 0);
-
-
-  $(".watering-can-span").waypoint(function(direction) {
-
+  $(".watering-can").waypoint(function(direction) {
     if (direction === 'down') {
       console.warn('down')
-      $('.watering-can-span').addClass('fadeInLeft');
-      $('.watering-can-span').removeClass('fadeOutLeft');
+      $('.watering-can').addClass('slideInRight');
+      $('.watering-can').removeClass('slideOutRight');
       // user is scrolling down, reveal our content
     } else if (direction === 'up') {
       console.warn('up')
-      $('.watering-can-span').addClass('fadeOutLeft');
-      $('.watering-can-span').removeClass('fadeInLeft');
+      $('.watering-can').addClass('slideOutRight');
+      $('.watering-can').removeClass('slideInRight');
     }
-  }, { offset: '50%' })
+  })
+
+  // Watering Can
+  $('.sunflower').css('opacity', 0);
+  $(".sunflower").waypoint(function(direction) {
+    if (direction === 'down') {
+      console.warn('down')
+      $('.sunflower').addClass('rotateInDownLeft');
+      $('.sunflower').removeClass('rotateOutDownRight');
+      // user is scrolling down, reveal our content
+    } else if (direction === 'up') {
+      console.warn('up')
+      $('.sunflower').addClass('rotateOutDownRight');
+      $('.sunflowern').removeClass('rotateInDownLeft');
+    }
+  })
 })
