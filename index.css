@@ -8,12 +8,16 @@ body {
   /* font-family: 'David Libre', serif; */
   /* font-family: 'Pompiere', cursive; */
   /* font-family: 'Gafata', sans-serif; */
-  font-size: 18px;
+  font-size: 16px;
+}
+
+.titleRow {
+  padding: 10px 0;
 }
 
 .plant-svg {
-  height:350px;
-  width:350px;
+  height:250px;
+  width:250px;
   position: fixed;
   left: 50%;
   top: 50%;
@@ -22,6 +26,8 @@ body {
 
 /* Small */
 @media(min-width:768px) and (max-width:991px){
+  font-size: 18px;
+
   .plant-svg {
     height:400px;
     width:400px;
@@ -44,6 +50,11 @@ body {
   }
 }
 
+
+.color-block {
+  height:170vh;
+}
+
 /******************************/
 /*.animated {
   animation-duration: 2s;
@@ -63,9 +74,6 @@ body {
 }*/
 /******************************/
 
-.color-block {
-  height:170vh;
-}
 
 .section-1 {
   // background-color: $lightpink;
