@@ -16,7 +16,7 @@ $(document).ready(function() {
         $('.watering-can').removeClass('slideInRight');
       }
     },
-    offset: 200
+    offset: 300
   })
 
   $('.sunflower').css('opacity', 0);
