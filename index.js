@@ -1,5 +1,23 @@
 $(document).ready(function() {
   console.warn('document ready')
+  $.scrollify({
+      section : ".color-block",
+      sectionName : "section-name",
+      interstitialSection : "",
+      easing: "easeInExpo",
+      scrollSpeed: 1100,
+      offset : 0,
+      scrollbars: true,
+      standardScrollElements: "",
+      setHeights: true,
+      overflowScroll: true,
+      updateHash: true,
+      touchScroll:true,
+      before:function() {},
+      after:function() {},
+      afterResize:function() {},
+      afterRender:function() {}
+    });
 
   // Watering Can
   $('.watering-can').css('opacity', 0);
