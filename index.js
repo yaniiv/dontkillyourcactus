@@ -1,23 +1,35 @@
 $(document).ready(function() {
+
   console.warn('document ready')
-  $.scrollify({
-      section : ".color-block",
-      sectionName : "section-name",
-      interstitialSection : "",
-      easing: "easeInExpo",
-      scrollSpeed: 1100,
-      offset : 0,
-      scrollbars: true,
-      standardScrollElements: "",
-      setHeights: true,
-      overflowScroll: true,
-      updateHash: true,
-      touchScroll:true,
-      before:function() {},
-      after:function() {},
-      afterResize:function() {},
-      afterRender:function() {}
-    });
+  // $.scrollify({
+  //     section : ".color-block",
+  //     sectionName : "section-name",
+  //     interstitialSection : "",
+  //     easing: "easeInExpo",
+  //     scrollSpeed: 300,
+  //     offset : 0,
+  //     scrollbars: true,
+  //     standardScrollElements: "",
+  //     setHeights: true,
+  //     overflowScroll: true,
+  //     updateHash: true,
+  //     touchScroll:true,
+  //     before:function() {},
+  //     after:function() {},
+  //     afterResize:function() {},
+  //     afterRender:function() {}
+  //   });
+
+  var animation = bodymovin.loadAnimation({
+    container: document.getElementById('bm'),
+    renderer: 'svg',
+    loop: false,
+    autoplay: false,
+    path: 'cactusbodymovin.json'
+  })
+
+  setTimeout(function(){  }, 3000);
+
 
   // Watering Can
   $('.watering-can').css('opacity', 0);
@@ -27,9 +39,11 @@ $(document).ready(function() {
       $('.watering-can').css('opacity', 100);
       console.warn('MOVING ' + direction + '. I am 200px from the top of the section2')
       if (direction === 'down') {
-        $('.watering-can').addClass('slideInRight');
-        $('.watering-can').removeClass('slideOutRight');
+        animation.play()
       } else if (direction === 'up') {
+        animation.setDirection(-1)
+        animation.play()
+
         $('.watering-can').addClass('slideOutRight');
         $('.watering-can').removeClass('slideInRight');
       }

@@ -36,16 +36,16 @@ body {
 /* Medium */
 @media(min-width:992px) and (max-width:1199px){
   .plant-svg {
-    height:500px;
-    width:500px;
+    height:320px;
+    width:320px;
   }
 }
 
 /* Large */
 @media(min-width:1200px){
   .plant-svg {
-    height:500px;
-    width:500px;
+    height:320px;
+    width:320px;
   }
 }
 
