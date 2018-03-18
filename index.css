@@ -4,9 +4,18 @@
 
 .navbar {
   background-color: white;
+  font-family: 'IBM Plex Mono', monospace;
+
   /* font-family: 'Palanquin', sans-serif; */
 }
 
+header {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+h5 {
+  margin: 0;
+}
 
 body {
   background-color: white;
@@ -25,6 +34,8 @@ body {
 .main-body-block {
   font-family: 'IBM Plex Mono', monospace;
 }
+
+.top-buffer { margin-top:30px; }
 
 .site-title-block {
   padding: 20px 0;
