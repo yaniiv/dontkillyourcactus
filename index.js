@@ -28,9 +28,6 @@ $(document).ready(function() {
     path: 'cactusbodymovin.json'
   })
 
-  setTimeout(function(){  }, 3000);
-
-
   // Watering Can
   $('.watering-can').css('opacity', 0);
   var waypoint = new Waypoint({

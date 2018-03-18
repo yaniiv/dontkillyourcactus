@@ -1,18 +1,34 @@
-header {
+<style>
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|IBM+Plex+Mono|Limelight|Monoton|Rokkitt');
+</style>
+
+.navbar {
+  background-color: white;
   /* font-family: 'Palanquin', sans-serif; */
 }
 
+
 body {
-  background-color: #f5dddd;
-  color: #2c2c2c;
+  background-color: white;
+  /* color: #2c2c2c; */
+  /* color: white; */
   /* font-family: 'David Libre', serif; */
   /* font-family: 'Pompiere', cursive; */
   /* font-family: 'Gafata', sans-serif; */
+  /* font-family: 'IBM Plex Mono', monospace; */
+/* font-family: 'Limelight', cursive; */
+/* font-family: 'Gloria Hallelujah', cursive; */
+/* font-family: 'Monoton', cursive; */
   font-size: 16px;
 }
 
-.titleRow {
-  padding: 10px 0;
+.main-body-block {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.site-title-block {
+  padding: 20px 0;
+  margin: 0;
 }
 
 .plant-svg {
@@ -51,7 +67,7 @@ body {
 
 .section-1 {
   background-color: #f5dddd;
-  height:120vh;
+  height:100vh;
 }
 
 .section-2 {
@@ -91,7 +107,7 @@ footer {
 
 
 .color-block {
-  height:170vh;
+  /* height:170vh; */
 }
 
 /******************************/
