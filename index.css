@@ -6,8 +6,15 @@ header {
   font-family: 'IBM Plex Mono', monospace;
   background-color: #f0dcab;
 }
+/*
+.header-left-text: {
+  float: right;
+} */
 
-
+.normal-text {
+  text-transform: inherit;
+  padding: 0;
+}
 
 body {
   /* color: #2c2c2c; */
@@ -23,20 +30,61 @@ body {
   /* font-family: 'Monoton', cursive; */
 }
 
-h5 {
-  margin: 0;
-}
+h5 { margin: 0; }
+.row-buffer { margin-top:30px; }
 
-.navbar {
-  background-color: #f0dcab;
-}
-
-.top-buffer { margin-top:30px; }
+.navbar { background-color: #f0dcab; }
 
 .site-title-block {
   margin: 20px 0;
-  /* margin: 0; */
 }
+
+.color-block {
+  height:120vh;
+}
+
+.wheelbarrow {
+  height: 25px;
+  width: 25px;
+}
+
+footer {
+  background-color: #454545;
+  height:40vh;
+}
+
+.section-1 { background-color: #f5dddd; }
+.section-2 { background-color: #f0dcab; }
+.section-3 { background-color: #f0f5d7; }
+.section-4 { background-color: #d1f1d1; }
+.section-5 { background-color: #cfe0f5; }
+.section-6 { background-color: #e4d2f5; }
+.section-7 { background-color: #f3eaaa; }
+
+/* Small */
+/* @media(min-width:768px) and (max-width:991px){
+  font-size: 18px;
+  .plant-svg {
+    height:400px;
+    width:400px;
+  }
+} */
+
+/* Medium */
+/* @media(min-width:992px) and (max-width:1199px){
+  .plant-svg {
+    height:320px;
+    width:320px;
+  }
+} */
+
+/* Large */
+/* @media(min-width:1200px){
+  .plant-svg {
+    height:320px;
+    width:320px;
+  }
+} */
 
 /* .plant-svg {
   height:250px;
@@ -47,80 +95,6 @@ h5 {
   transform: translate(-50%, -50%);
 } */
 
-.wheelbarrow {
-  height: 50px;
-  width: 50px;
-}
-
-/* Small */
-@media(min-width:768px) and (max-width:991px){
-  font-size: 18px;
-  .plant-svg {
-    height:400px;
-    width:400px;
-  }
-}
-
-/* Medium */
-@media(min-width:992px) and (max-width:1199px){
-  .plant-svg {
-    height:320px;
-    width:320px;
-  }
-}
-
-/* Large */
-@media(min-width:1200px){
-  .plant-svg {
-    height:320px;
-    width:320px;
-  }
-}
-
-.section-1 {
-  background-color: #f5dddd;
-  height:120vh;
-}
-
-.section-2 {
-  background-color: #f0dcab;
-  height:120vh;
-}
-
-.section-3 {
-  background-color: #f0f5d7;
-  height:170vh;
-}
-
-.section-4 {
-  background-color: #d1f1d1;
-  height:170vh;
-}
-
-.section-5 {
-  background-color: #cfe0f5;
-  height:170vh;
-}
-
-.section-6 {
-  background-color: #e4d2f5;
-  height:170vh;
-}
-
-.section-7 {
-  background-color: #f3eaaa;
-  height:170vh;
-}
-
-footer {
-  background-color: #454545;
-  height:40vh;
-}
-
-
-.color-block {
-  /* height:170vh; */
-}
 
 /******************************/
 /*.animated {
