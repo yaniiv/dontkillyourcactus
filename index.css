@@ -4,13 +4,14 @@
 
 header {
   font-family: 'IBM Plex Mono', monospace;
+}
+
+.navbar {
+  height: 45px;
   background-color: #f0dcab;
 }
-/*
-.header-left-text: {
-  float: right;
-} */
-.navbar-nav .nav-link{
+
+.navbar-nav .nav-link {
   text-transform: inherit;
   font-size: inherit;
   font-weight: inherit;
@@ -34,7 +35,6 @@ body {
 h5 { margin: 0; }
 .row-buffer { margin-top:30px; }
 
-.navbar { background-color: #f0dcab; }
 
 .site-title-block {
   margin: 20px 0;
