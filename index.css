@@ -10,9 +10,10 @@ header {
 .header-left-text: {
   float: right;
 } */
-
-.normal-text {
+.navbar-nav .nav-link{
   text-transform: inherit;
+  font-size: inherit;
+  font-weight: inherit;
   padding: 0;
 }
 
