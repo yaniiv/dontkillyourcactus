@@ -2,13 +2,37 @@
 @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|IBM+Plex+Mono|Limelight|Monoton|Rokkitt');
 </style>
 
+/* font-family: 'David Libre', serif; */
+/* font-family: 'Pompiere', cursive; */
+/* font-family: 'Gafata', sans-serif; */
+/* font-family: 'IBM Plex Mono', monospace; */
+/* font-family: 'Limelight', cursive; */
+/* font-family: 'Gloria Hallelujah', cursive; */
+/* font-family: 'Monoton', cursive; */
+
 nav {
   font-family: 'IBM Plex Mono', monospace;
 }
 
+
+body {
+  background-color: #f5dddd;;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 16px;
+}
+
+h5 {
+  margin: 0;
+}
+
+
 .navbar {
   height: 60px;
   background-color: #f0dcab;
+}
+
+.main-header {
+  font-size: 17px
 }
 
 .navbar-nav .nav-link {
@@ -23,21 +47,13 @@ nav {
   font-size: 17px;
 }
 
-body {
-  /* color: #2c2c2c; */
-  background-color: #f5dddd;;
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 16px;
-  /* font-family: 'David Libre', serif; */
-  /* font-family: 'Pompiere', cursive; */
-  /* font-family: 'Gafata', sans-serif; */
-  /* font-family: 'IBM Plex Mono', monospace; */
-  /* font-family: 'Limelight', cursive; */
-  /* font-family: 'Gloria Hallelujah', cursive; */
-  /* font-family: 'Monoton', cursive; */
-}
 
-h5 { margin: 0; }
+.dropdown-container {
+  font-size: 17px;
+  margin: 20px 0;
+  color: inherit;
+  font-weight: inherit;
+}
 
 .row-buffer {
   margin-top:30px;
