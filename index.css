@@ -1,6 +1,6 @@
-<style>
+/* <style>
 @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|IBM+Plex+Mono|Limelight|Monoton|Rokkitt');
-</style>
+</style> */
 
 /* font-family: 'David Libre', serif; */
 /* font-family: 'Pompiere', cursive; */
@@ -11,7 +11,8 @@
 /* font-family: 'Monoton', cursive; */
 
 nav {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Monoton', monospace;
+  text-transform: none;
 }
 
 
@@ -27,7 +28,7 @@ h5 {
 
 
 .navbar {
-  height: 60px;
+  height: 50px;
   background-color: #f0dcab;
 }
 
