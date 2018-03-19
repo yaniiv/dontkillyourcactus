@@ -7,7 +7,7 @@ header {
 }
 
 .navbar {
-  height: 45px;
+  height: 55px;
   background-color: #f0dcab;
 }
 
@@ -15,7 +15,7 @@ header {
   text-transform: inherit;
   font-size: inherit;
   font-weight: inherit;
-  padding: 0;
+  /* padding: 0; */
 }
 
 body {
