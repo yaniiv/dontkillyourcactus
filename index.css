@@ -11,11 +11,9 @@ header {
 
 body {
   /* color: #2c2c2c; */
-
   background-color: white;
   font-family: 'IBM Plex Mono', monospace;
   font-size: 16px;
-
   /* font-family: 'David Libre', serif; */
   /* font-family: 'Pompiere', cursive; */
   /* font-family: 'Gafata', sans-serif; */
@@ -33,20 +31,25 @@ h5 {
   background-color: #f0dcab;
 }
 
-.top-buffer { margin-top:40px; }
+.top-buffer { margin-top:30px; }
 
 .site-title-block {
-  padding: 20px 0;
-  margin: 0;
+  margin: 20px 0;
+  /* margin: 0; */
 }
 
-.plant-svg {
+/* .plant-svg {
   height:250px;
   width:250px;
   position: fixed;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+} */
+
+.wheelbarrow {
+  height: 50px;
+  width: 50px;
 }
 
 /* Small */
@@ -76,7 +79,7 @@ h5 {
 
 .section-1 {
   background-color: #f5dddd;
-  height:100vh;
+  height:120vh;
 }
 
 .section-2 {
