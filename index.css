@@ -2,20 +2,25 @@
 @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|IBM+Plex+Mono|Limelight|Monoton|Rokkitt');
 </style>
 
-header {
+nav {
   font-family: 'IBM Plex Mono', monospace;
 }
 
 .navbar {
-  height: 55px;
+  height: 60px;
   background-color: #f0dcab;
 }
 
 .navbar-nav .nav-link {
   text-transform: inherit;
-  font-size: inherit;
+  font-size: 17px;
+  color: inherit;
   font-weight: inherit;
-  /* padding: 0; */
+  padding: 0;
+}
+
+.navbar-item {
+  font-size: 17px;
 }
 
 body {
@@ -33,8 +38,13 @@ body {
 }
 
 h5 { margin: 0; }
-.row-buffer { margin-top:30px; }
 
+.row-buffer {
+  margin-top:30px;
+}
+.top-row-buffer {
+  padding-top: 30px;
+}
 
 .site-title-block {
   margin: 20px 0;
